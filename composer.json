@@ -1,0 +1,21 @@
+{
+    "name": "idun/survey",    
+    "type": "library",
+    "description": "Create simple survey forms",
+    "keywords": ["html", "forms", "survey", "education"],
+    "homepage": "http://dbwebb.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Fredelius",
+            "email": "jonfredelius@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Idun\\": "src/" }
+    }
+}
