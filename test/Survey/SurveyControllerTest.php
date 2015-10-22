@@ -6,10 +6,8 @@ namespace Idun\Survey;
  * Test class for the Survey module
  *
  */
-class SurveyControllerTest extends \PHPUnit_Framework_TestCase implements \Anax\DI\IInjectionAware
-{
-    use \Anax\DI\TInjectable;
-    
+class SurveyControllerTest extends \PHPUnit_Framework_TestCase
+{   
     
     $survey = new \Idun\Survey\SurveyController();
     $di    = new \Anax\DI\CDIFactoryDefault();
