@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=5.4",
-        "mos/cdatabase": "dev-master"
+        "mos/cdatabase": "dev-master",
+        "anax/mvc": "dev-master"
     },
     "autoload": {
         "psr-4": { "Idun\\": "src/" }

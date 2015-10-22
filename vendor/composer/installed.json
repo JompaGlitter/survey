@@ -1,0 +1,98 @@
+[
+    {
+        "name": "mos/cdatabase",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cdatabase.git",
+            "reference": "bbe525520457d5f115aa4b0784f9fe6f2731b3ad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/bbe525520457d5f115aa4b0784f9fe6f2731b3ad",
+            "reference": "bbe525520457d5f115aa4b0784f9fe6f2731b3ad",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2015-09-17 13:03:38",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP classes for database handling upon PDO",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "education",
+            "framework",
+            "micro",
+            "module",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/mvc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/Anax-MVC.git",
+            "reference": "b996e34c5d9167ada25abf312474e451180e33c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/Anax-MVC/zipball/b996e34c5d9167ada25abf312474e451180e33c0",
+            "reference": "b996e34c5d9167ada25abf312474e451180e33c0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2015-05-20 20:48:21",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Webtemplate to create websites",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    }
+]
