@@ -8,7 +8,7 @@ namespace Idun\Survey;
  */
 class SurveyControllerTest extends \PHPUnit_Framework_TestCase
 {
-    /*
+    
     $survey = new \Idun\Survey\SurveyController();
     $di    = new \Anax\DI\CDIFactoryDefault();
     $survey->setDI($di);
@@ -20,6 +20,6 @@ class SurveyControllerTest extends \PHPUnit_Framework_TestCase
         $db->connect();
         return $db;
     });
-    */
+    
     
 }
